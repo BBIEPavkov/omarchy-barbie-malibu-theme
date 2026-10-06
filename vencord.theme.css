@@ -1,0 +1,74 @@
+/**
+ * @name Omarchy Barbie Malibu
+ * @description Light pastel pink Barbie theme for Discord, matching the Omarchy Barbie Malibu theme. Use with Discord's light appearance.
+ * @author Emily Pavkov
+ * @version 1.0.0
+ * @source https://github.com/BBIEPavkov/omarchy-barbie-malibu-theme
+ */
+
+.theme-light,
+.visual-refresh.theme-light {
+  /* Surfaces, darkest to lightest */
+  --background-tertiary: #FFC2DB;
+  --background-secondary: #FFCFE3;
+  --background-secondary-alt: #FFCFE3;
+  --background-primary: #FFDCEB;
+  --background-floating: #FFE8F2;
+  --background-nested-floating: #FFE8F2;
+  --background-accent: #FFA8D2;
+  --background-base-lowest: #FFC2DB;
+  --background-base-lower: #FFCFE3;
+  --background-base-low: #FFDCEB;
+  --background-surface-high: #FFE8F2;
+  --background-surface-higher: #FFE8F2;
+  --background-surface-highest: #FFF2F8;
+  --channeltextarea-background: #FFE8F2;
+  --modal-background: #FFDCEB;
+  --modal-footer-background: #FFCFE3;
+  --bg-overlay-chat: #FFDCEB;
+  --chat-background-default: #FFDCEB;
+
+  /* Hover and selection */
+  --background-modifier-hover: rgba(224, 33, 138, 0.08);
+  --background-modifier-active: rgba(224, 33, 138, 0.14);
+  --background-modifier-selected: rgba(224, 33, 138, 0.2);
+  --background-modifier-accent: rgba(122, 21, 80, 0.12);
+  --background-mentioned: rgba(224, 33, 138, 0.12);
+  --background-mentioned-hover: rgba(224, 33, 138, 0.18);
+
+  /* Text */
+  --text-normal: #7A1550;
+  --text-default: #7A1550;
+  --text-muted: #B05A88;
+  --text-link: #0B5FA8;
+  --header-primary: #5E0F3D;
+  --header-secondary: #951D63;
+  --channels-default: #951D63;
+  --interactive-normal: #951D63;
+  --interactive-hover: #7A1550;
+  --interactive-active: #5E0F3D;
+  --interactive-muted: #E39BBF;
+
+  /* Accent */
+  --brand-experiment: #E0218A;
+  --brand-500: #E0218A;
+  --brand-560: #C51162;
+  --button-filled-brand-background: #E0218A;
+  --button-filled-brand-background-hover: #C51162;
+  --control-brand-foreground: #E0218A;
+  --mention-foreground: #C51162;
+  --mention-background: rgba(224, 33, 138, 0.2);
+
+  --status-positive: #1F9A73;
+  --status-danger: #D6115E;
+  --text-positive: #1F9A73;
+  --text-danger: #D6115E;
+
+  --scrollbar-thin-thumb: #E39BBF;
+  --scrollbar-auto-thumb: #E39BBF;
+  --scrollbar-auto-track: #FFCFE3;
+}
+
+::selection {
+  background: rgba(224, 33, 138, 0.3);
+}

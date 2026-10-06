@@ -1,0 +1,141 @@
+/* Omarchy Theme for Obsidian */
+
+.theme-dark, .theme-light {
+  /* Core colors */
+  --background-primary: #FFDCEB;
+  --background-primary-alt: #FFDCEB;
+  --background-secondary: #FFDCEB;
+  --background-secondary-alt: #FFDCEB;
+  --text-normal: #7A1550;
+
+  /* Selection colors */
+  --text-selection: #FFA8D2;
+
+  /* Border color */
+  --background-modifier-border: #E39BBF;
+
+  /* Semantic heading colors */
+  --text-title-h1: #D6115E;
+  --text-title-h2: #1F9A73;
+  --text-title-h3: #C98A00;
+  --text-title-h4: #0B5FA8;
+  --text-title-h5: #E0218A;
+  --text-title-h6: #E0218A;
+
+  /* Links and accents */
+  --text-link: #0B5FA8;
+  --text-accent: #E0218A;
+  --text-accent-hover: #E0218A;
+  --interactive-accent: #E0218A;
+  --interactive-accent-hover: #E0218A;
+
+  /* Muted text */
+  --text-muted: color-mix(in srgb, #7A1550 70%, transparent);
+  --text-faint: color-mix(in srgb, #7A1550 55%, transparent);
+
+  /* Code */
+  --code-normal: #0A7FA3;
+
+  /* Errors and success */
+  --text-error: #D6115E;
+  --text-error-hover: #D6115E;
+  --text-success: #1F9A73;
+
+  /* Tags */
+  --tag-color: #0A7FA3;
+  --tag-background: #E39BBF;
+
+  /* Graph */
+  --graph-line: #E39BBF;
+  --graph-node: #E0218A;
+  --graph-node-focused: #0B5FA8;
+  --graph-node-tag: #0A7FA3;
+  --graph-node-attachment: #1F9A73;
+}
+
+/* Headers */
+.cm-header-1, .markdown-rendered h1 { color: var(--text-title-h1); }
+.cm-header-2, .markdown-rendered h2 { color: var(--text-title-h2); }
+.cm-header-3, .markdown-rendered h3 { color: var(--text-title-h3); }
+.cm-header-4, .markdown-rendered h4 { color: var(--text-title-h4); }
+.cm-header-5, .markdown-rendered h5 { color: var(--text-title-h5); }
+.cm-header-6, .markdown-rendered h6 { color: var(--text-title-h6); }
+
+/* Code blocks */
+.markdown-rendered code {
+  color: #0A7FA3;
+}
+
+/* Syntax highlighting */
+.cm-s-obsidian span.cm-keyword { color: #D6115E; }
+.cm-s-obsidian span.cm-string { color: #1F9A73; }
+.cm-s-obsidian span.cm-number { color: #C98A00; }
+.cm-s-obsidian span.cm-comment { color: #E39BBF; }
+.cm-s-obsidian span.cm-operator { color: #0B5FA8; }
+.cm-s-obsidian span.cm-def { color: #0B5FA8; }
+
+/* Links */
+.markdown-rendered a {
+  color: var(--text-link);
+}
+
+/* Blockquotes */
+.markdown-rendered blockquote {
+  border-left-color: #E0218A;
+}
+
+/* Active elements */
+.workspace-leaf.mod-active .workspace-leaf-header-title {
+  color: var(--interactive-accent);
+}
+
+.nav-file-title.is-active {
+  color: var(--interactive-accent);
+}
+
+/* Search results */
+.search-result-file-title {
+  color: var(--interactive-accent);
+}
+
+/* Barbie touches */
+.theme-dark, .theme-light {
+  --text-highlight-bg: rgba(224, 33, 138, 0.25);
+  --checkbox-color: #E0218A;
+  --checkbox-color-hover: #D81B7A;
+}
+
+/* Hearts for bullet points, in reading and editing views */
+.markdown-rendered ul > li::marker {
+  content: "♥  ";
+  color: #E0218A;
+}
+
+.list-bullet::after {
+  content: "♥";
+  background: none;
+  width: auto;
+  height: auto;
+  color: #E0218A;
+  font-size: 0.8em;
+}
+
+/* A heart before each top-level heading */
+.markdown-rendered h1::before,
+.HyperMD-header-1 .cm-header-1:first-of-type::before {
+  content: "♥ ";
+  color: #E0218A;
+}
+
+/* Divider lines become a row of hearts */
+.markdown-rendered hr {
+  border: none;
+  text-align: center;
+  overflow: visible;
+}
+
+.markdown-rendered hr::after {
+  content: "♥  ♥  ♥";
+  color: #D81B7A;
+  letter-spacing: 0.5em;
+}

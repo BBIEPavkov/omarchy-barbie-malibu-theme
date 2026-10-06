@@ -1,0 +1,20 @@
+{
+  "name": "omarchy-barbie-malibu-theme",
+  "displayName": "Omarchy Barbie Malibu Theme",
+  "description": "A light Barbie theme tuned to match the Omarchy Barbie Malibu desktop theme.",
+  "version": "1.0.0",
+  "publisher": "emilypavkov",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Omarchy Barbie Malibu",
+        "uiTheme": "vs",
+        "path": "./themes/omarchy-barbie-malibu-color-theme.json"
+      }
+    ]
+  }
+}
