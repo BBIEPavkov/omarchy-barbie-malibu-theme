@@ -13,6 +13,17 @@ omarchy theme set barbie-malibu
 
 Requires Omarchy 4 (Quattro) and the `Yaru-magenta` icon theme.
 
+## Dark Mode
+
+For nighttime, use the dark [Omarchy Barbie theme](https://github.com/BBIEPavkov/omarchy-barbie-theme): deep violet-pink backgrounds with hot pink accents.
+
+```bash
+omarchy theme install https://github.com/BBIEPavkov/omarchy-barbie-theme
+omarchy theme set barbie
+```
+
+Switch between the two any time with `omarchy theme set barbie` and `omarchy theme set barbie-malibu`.
+
 ## Colors
 
 | Role | Color |
