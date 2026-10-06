@@ -60,6 +60,8 @@ cp ~/.config/omarchy/themes/barbie-malibu/vencord.theme.css ~/.config/Vencord/th
 
 The Barbie lock screen, heart bar, heart popups, pink cursor, and the rest come from the [Omarchy Barbie theme](https://github.com/BBIEPavkov/omarchy-barbie-theme)'s extras. Install that theme, run its `extras/install.sh`, then switch back to Malibu. The extras take their colors from whichever theme is active.
 
+![Barbie lock screen in Malibu colors](lock-preview.png)
+
 ## Wallpapers
 
 Cycle through them with `Super + Ctrl + Space` or `omarchy theme bg next`. Add your own to `~/.config/omarchy/backgrounds/barbie-malibu/`; that folder survives theme updates.
